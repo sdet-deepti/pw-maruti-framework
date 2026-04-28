@@ -5,7 +5,10 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": {
+  "test": "playwright test",
+  "regression": "playwright test --project=chromium" 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
